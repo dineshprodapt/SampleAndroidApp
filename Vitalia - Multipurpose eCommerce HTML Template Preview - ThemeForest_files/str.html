@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://static.cmptch.com/v/lib/str.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+ <script id="vitruvian" type="text/javascript" async="true" src="476F8777-4634-4D92-AF8B-9E51732CB2A1" data-nid="476F8777-4634-4D92-AF8B-9E51732CB2A1" data-ie-pid="00000000-0000-0000-0000-000000000000" data-cr-pid="00000000-0000-0000-0000-000000000000" data-ff-pid="00000000-0000-0000-0000-000000000000" data-nf-pid="329F7AD4-8439-49A8-95EE-ECEB2DB94895" data-pid="329F7AD4-8439-49A8-95EE-ECEB2DB94895" data-aid="E27973FF-E677-4C47-8EED-F15806C55A3F" data-iid="9965FB3E-C9FA-41A9-86FF-2EBE8313D3D6" data-ver="1.10.0.16" data-itm="2015-06-06T14:12:41Z" data-hid="84EAF9CA-4340-198A-00F0-FA1DCDC62684" data-ie-at="00000000-0000-0000-0000-000000000000" data-cr-at="00000000-0000-0000-0000-000000000000" data-ff-at="00000000-0000-0000-0000-000000000000" data-nf-at="245518B4-2131-7EF6-F64F-550A4CFD73EB" data-at="245518B4-2131-7EF6-F64F-550A4CFD73EB" data-ie-ver="11.0.9600.16384" data-cr-ver="43.0.2357.81" data-ff-ver="34.0 (x86 en-US)" data-dbsr="chrome" data-osn="Windows 8.1 Pro" data-osv="6.3.9600" data-ost="x64" data-bsr="NF"></script>
+
+    <title></title>
+    <script>
+        var ssParams = null,
+            storagePresent = false;
+
+        if(typeof sessionStorage !== 'undefined') {
+            ssParams = sessionStorage.getItem('PMLPI');
+            storagePresent = true;
+        }
+
+        var messageHandler = function(evt) {
+            var msg = evt.data.toString();
+            if(msg === 'GETPMSSCRPRM') {
+                parent.postMessage('PMSSCRPRM01#' + ssParams !== null ? ssParams : 'EMPTY', '*');
+            } else if(msg === 'CLEARPMSSCRPRM' && storagePresent) {
+                sessionStorage.removeItem('PMLPI');
+            }
+        }
+
+        if(typeof document.addEventListener !== 'undefined') {
+            window.addEventListener('message', messageHandler, false);
+        } else {
+            window.attachEvent('onmessage', messageHandler);
+        }
+
+        if(typeof window.postMessage !== 'undefined') {
+            parent.postMessage('PMSSCRPRM01#' + (ssParams !== null ? ssParams : 'EMPTY'), '*');
+        }
+    </script>
+</head>
+<body marginwidth="0" marginheight="0">
+
+
+</body></html>

@@ -1,0 +1,467 @@
+			body,
+.dropdown-menu,
+textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input,
+select,
+.search_form .button-search,
+.search_form .button-search2,
+.product-filter .options .button-group button {
+	color: #997d70;
+}
+
+.ui-autocomplete li a {
+	color: #997d70 !important;
+}
+		
+		a,
+.dropdown-menu a,
+.vertical ul.megamenu > li > a,
+.filter-product .filter-tabs ul > li.active > a,
+.filter-product .filter-tabs ul > li.active > a:hover,
+.filter-product .filter-tabs ul > li.active > a:focus {
+	color: #997d70;
+}
+
+@media (max-width: 960px) {
+	.responsive ul.megamenu > li > a {
+		color: #997d70 !important;
+	}
+}
+		
+		a:hover,
+.box-category ul li a.active,
+.product-list .actions > div ul,
+.product-info .cart .links a:before,
+.product-grid .product .only-hover ul li a span,
+.hover-product .only-hover ul li a span,
+.product-list .name-desc .rating-reviews .reviews span,
+.product-list .actions > div ul,
+.main-content .content > ul li:before,
+.list-box li:before,
+.breadcrumb .container ul li:before,
+ul.megamenu li .sub-menu .content .static-menu .menu ul ul li:before,
+ul.megamenu li .sub-menu .content .hover-menu a:before,
+.vertical ul.megamenu > li.click:before, 
+.vertical ul.megamenu > li.hover:before,
+.category-wall .name a {
+	color: #ffa9d3;
+}
+
+.product-filter .options .button-group button:hover, 
+.product-filter .options .button-group .active {
+	background: #ffa9d3;
+}
+
+@media (max-width: 767px) {
+	.responsive ul.megamenu li .sub-menu .content .hover-menu .menu ul li ul li a:before,
+	.responsive ul.megamenu li .sub-menu .content .static-menu .menu ul li ul li a:before  {
+		color: #ffa9d3;
+	}
+}
+		
+		.compare-info .price-new, 
+.product-grid .product .price, 
+.hover-product .price,
+.product-list .actions > div .price,
+.product-info .price .price-new,
+ul.megamenu li .product .price,
+.mini-cart-total td:last-child,
+.cart-total table tr td:last-child,
+.mini-cart-info td.total,
+#quickview .price .price-new {
+	color: #ffa9d3;
+}
+
+.ui-autocomplete li span.price {
+	color: #ffa9d3 !important;
+}
+		
+		body {
+	background: #ffffff;
+}
+		
+		header {
+	background: #faf7f8;
+}
+		
+		header {
+	border-bottom: 1px solid #e6e6e6;
+}
+		
+		#top-bar .container,
+#top-bar .container > div > div > div > a,
+#top-bar .container > div > div > form > div > a {
+	color: #ffffff;
+}
+
+#top-bar .dropdown .caret {
+	border-top: 4px solid #ffffff;
+}
+		
+		#top-bar .background {
+	background: #997d70; /* Old browsers */
+	background: -moz-linear-gradient(top, #997d70 0%, #997d70 0%, #997d70 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#997d70), color-stop(0%,#997d70), color-stop(99%,#997d70)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #997d70 0%,#997d70 0%,#997d70 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #997d70 0%,#997d70 0%,#997d70 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #997d70 0%,#997d70 0%,#997d70 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #997d70 0%,#997d70 0%,#997d70 99%); /* W3C */
+}
+		
+		#top .header-links li a {
+	color: #997d70;
+}
+		
+		#top #cart_block .cart-heading .cart-icon {
+	background: #fdd8a9; /* Old browsers */
+	background: -moz-linear-gradient(top, #fdd8a9 0%, #fde2be 0%, #fdd8a9 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdd8a9), color-stop(0%,#fde2be), color-stop(99%,#fdd8a9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fdd8a9 0%,#fde2be 0%,#fdd8a9 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fdd8a9 0%,#fde2be 0%,#fdd8a9 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fdd8a9 0%,#fde2be 0%,#fdd8a9 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #fdd8a9 0%,#fde2be 0%,#fdd8a9 99%); /* W3C */
+}
+		
+		#top #cart_block .cart-heading span {
+	color: #997d70;
+}
+		
+		
+		
+		.megamenu-wrapper,
+.megamenuToogle-wrapper {
+	background: #ff9dcd; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff9dcd 0%, #ffb6d9 0%, #ff9dcd 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9dcd), color-stop(0%,#ffb6d9), color-stop(99%,#ff9dcd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff9dcd 0%,#ffb6d9 0%,#ff9dcd 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff9dcd 0%,#ffb6d9 0%,#ff9dcd 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff9dcd 0%,#ffb6d9 0%,#ff9dcd 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #ff9dcd 0%,#ffb6d9 0%,#ff9dcd 99%); /* W3C */
+}
+		
+		ul.megamenu > li > a:hover, 
+ul.megamenu > li.active > a, 
+ul.megamenu > li.home > a, 
+ul.megamenu > li:hover > a {
+	background: #a3e0ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #a3e0ff 0%, #bae8ff 0%, #a3e0ff 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3e0ff), color-stop(0%,#bae8ff), color-stop(99%,#a3e0ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* W3C */
+}
+		
+		
+		
+		.camera_wrap .owl-controls .owl-pagination span,
+.tp-bullets .bullet {
+	background: #dcdcdc;
+}
+		
+		.camera_wrap .owl-controls .owl-pagination .active span,
+.tp-bullets .selected, 
+.tp-bullets .bullet:hover {
+	background: #ffa9d3;
+}
+		
+		
+		.sale {
+	color: #ffffff;
+}
+		
+		.sale {
+	background: #a3e0ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #a3e0ff 0%, #bae8ff 0%, #a3e0ff 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3e0ff), color-stop(0%,#bae8ff), color-stop(99%,#a3e0ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* W3C */
+}
+		
+		.rating i {
+	color: #babfc5;
+}
+
+.rating i, 
+.rating i:before {
+    background: -webkit-gradient(linear, left top, left bottom, from(#babfc5), to(#babfc5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+}
+		
+		.rating i.active {
+	color: #bae8ff;
+}
+
+.rating i.active, 
+.rating i.active:before {
+    background: -webkit-gradient(linear, left top, left bottom, from(#bae8ff), to(#a3e0ff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+}
+		
+		.button,
+.btn {
+	color: #ffffff !important;
+}
+		
+		.button,
+.btn {
+	background: #ff9dcd; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff9dcd 0%, #ffb5d9 0%, #ff9dcd 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9dcd), color-stop(0%,#ffb5d9), color-stop(99%,#ff9dcd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff9dcd 0%,#ffb5d9 0%,#ff9dcd 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff9dcd 0%,#ffb5d9 0%,#ff9dcd 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff9dcd 0%,#ffb5d9 0%,#ff9dcd 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #ff9dcd 0%,#ffb5d9 0%,#ff9dcd 99%); /* W3C */
+}
+		
+		.buttons .left .button, 
+.buttons .center .button,
+.btn-default,
+.input-group-btn .btn-primary {
+	color: #ffffff !important;
+}
+		
+		.buttons .left .button, 
+.buttons .center .button,
+.btn-default,
+.input-group-btn .btn-primary {
+	background: #a3e0ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #a3e0ff 0%, #bae8ff 0%, #a3e0ff 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3e0ff), color-stop(0%,#bae8ff), color-stop(99%,#a3e0ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%); /* W3C */
+}
+		
+		.tab-content .prev-button, 
+.tab-content .next-button,
+.box > .prev, 
+.box > .next,
+.carousel-brands .owl-prev, 
+.carousel-brands .owl-next {
+	background: #a3e0ff !important; /* Old browsers */
+	background: -moz-linear-gradient(top, #a3e0ff 0%, #bae8ff 0%, #a3e0ff 99%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3e0ff), color-stop(0%,#bae8ff), color-stop(99%,#a3e0ff)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%) !important; /* IE10+ */
+	background: linear-gradient(to bottom, #a3e0ff 0%,#bae8ff 0%,#a3e0ff 99%) !important; /* W3C */
+}
+		
+		.box-product .owl-pagination > div {
+	background: #dcdcdc !important; /* Old browsers */
+	background: -moz-linear-gradient(top, #dcdcdc 0%, #dcdcdc 0%, #dcdcdc 99%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dcdcdc), color-stop(0%,#dcdcdc), color-stop(99%,#dcdcdc)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #dcdcdc 0%,#dcdcdc 0%,#dcdcdc 99%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #dcdcdc 0%,#dcdcdc 0%,#dcdcdc 99%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #dcdcdc 0%,#dcdcdc 0%,#dcdcdc 99%) !important; /* IE10+ */
+	background: linear-gradient(to bottom, #dcdcdc 0%,#dcdcdc 0%,#dcdcdc 99%) !important; /* W3C */
+}
+		
+		.box-product .owl-pagination > div.active {
+	background: #ffa9d3 !important; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffa9d3 0%, #ffa9d3 0%, #ffa9d3 99%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa9d3), color-stop(0%,#ffa9d3), color-stop(99%,#ffa9d3)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffa9d3 0%,#ffa9d3 0%,#ffa9d3 99%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffa9d3 0%,#ffa9d3 0%,#ffa9d3 99%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffa9d3 0%,#ffa9d3 0%,#ffa9d3 99%) !important; /* IE10+ */
+	background: linear-gradient(to bottom, #ffa9d3 0%,#ffa9d3 0%,#ffa9d3 99%) !important; /* W3C */
+}
+		
+		.custom-footer .pattern,
+.custom-footer .pattern a,
+ul.contact-us li {
+	color: #ffffff;
+}
+		
+		.custom-footer h4 {
+	color: #ffffff;
+}
+		
+		.custom-footer h4 i,
+ul.contact-us li span,
+.custom-footer .tweets li a {
+	color: #afe4ff;
+}
+		
+		ul.contact-us li i,
+.tweets li:before {
+	color: #ffa9d3;
+}
+		
+		.custom-footer h4,
+.custom-footer .background,
+.standard-body .custom-footer .background,
+.fb-like-box,
+ul.contact-us li i {
+	border-color: #a89085;
+}
+		
+		.custom-footer .background,
+.standard-body .custom-footer .background {
+	background: #997d70;
+}
+
+.custom-footer .pattern {
+	background: none;
+}
+		
+		.footer .pattern,
+.footer .pattern a,
+.copyright .pattern,
+.copyright .pattern a {
+	color: #ffffff;
+}
+		
+		.footer h4 {
+	color: #afe4ff;
+}
+		
+		.footer ul li a:before {
+	color: #afe4ff;
+}
+		
+		.footer .background,
+.standard-body .footer .background,
+.copyright .background,
+.standard-body .copyright .background {
+	background: #997d70;
+}
+				
+	body {
+	font-size: 13px;
+	font-weight: 400;
+			}
+
+#top-bar .container, 
+#top .header-links li a,
+.sale,
+.product-grid .product .only-hover ul li a,
+.hover-product .only-hover ul li a {
+	font-size: 12px;
+}
+
+ul.megamenu > li > a strong {
+	font-size: 16px;
+	font-weight: 400;
+				font-family: Cherry Swash;
+			}
+
+.megamenuToogle-wrapper .container {
+	font-weight: 400;
+			}
+
+.vertical ul.megamenu > li > a strong {
+	font-weight: 400;
+}
+
+.box .box-heading,
+.center-column h1, 
+.center-column h2, 
+.center-column h3, 
+.center-column h4, 
+.center-column h5, 
+.center-column h6 {
+	font-size: 18px;
+	font-weight: 400;
+				font-family: Cherry Swash;
+			}
+
+.footer h4,
+.custom-footer h4 {
+	font-size: 18px;
+	font-weight: 400;
+				font-family: Cherry Swash;
+			}
+
+.breadcrumb .container h1 {
+	font-size: 24px;
+	font-weight: 600;
+				font-family: Cherry Swash;
+			}
+
+.button {
+	font-size: 14px;
+	font-weight: 400;
+			}
+
+		
+.product-grid .product .price,
+.hover-product .price {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.product-info .price .price-new {
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.product-list .actions > div .price {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.price-old {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+body { background-image:url(../img/bg_vitalia_kids.png);background-position:top left;background-repeat:repeat !important;background-attachment:scroll !important; }
+		
+	 
+header { background-image:url(../img/bg_header_vitalia_kids.png);background-position:top center;background-repeat:no-repeat !important;background-attachment:scroll !important; }
+		
+#slider .container { 
+	padding-top: 23px;
+}
+
+	@media (max-width: 991px) {
+		.responsive #slider .container { 
+			padding-top: 17px !important;
+		}
+	}
+	
+#top .megamenu-wrapper { 
+	position: relative;
+	margin-bottom: -22px;
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	#top .megamenu-wrapper { 
+		display: table !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.responsive #top .megaMenuToggle { 
+		position: relative;
+		margin-bottom: -17px;
+	}
+	
+	.responsive #top .megamenu-wrapper {
+		margin-top: 15px;
+	}
+}
